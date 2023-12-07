@@ -1,0 +1,67 @@
+.aboutme-container{
+    display: block;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding-top: 6vw;
+}
+
+
+
+.aboutme-container h1{
+    color: white;
+    font-size: 7rem;
+    width: 100%;
+    text-align: right;
+}
+
+.aboutme-container .para{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.aboutme-container p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: right;
+    width: 60%;
+}
+
+.aboutme-container .skillcontainer{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.aboutme-container .skillcontainer img{
+    margin-left: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 560px) {
+    .aboutme-container .skillcontainer{
+        display: inline;
+    }
+
+    .aboutme-container .skillcontainer img{
+        margin: 15px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .aboutme-container p{
+        width: 100%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .aboutme-container h1{
+        font-size: 5rem;
+    }
+}

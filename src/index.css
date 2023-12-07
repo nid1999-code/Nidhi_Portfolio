@@ -1,0 +1,29 @@
+html{
+  font-size: 10px;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: #181818;
+}
+
+@media only screen and (max-width: 920px) {
+  html{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  html{
+    font-size: 6px;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
